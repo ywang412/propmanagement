@@ -1,10 +1,10 @@
-# Premier Property Management - Hugo Site
+# HTX Property Management - Hugo Site
 
 A modern, responsive website for a property management company built with Hugo static site generator.
 
 ## 🏠 About This Site
 
-This is a professional landing page for "Premier Property Management," a fictional property management company. The site showcases the company's services, team, and provides contact information for potential clients.
+This is a professional landing page for "HTX Property Management," a fictional property management company. The site showcases the company's services, team, and provides contact information for potential clients.
 
 ## ✨ Features
 

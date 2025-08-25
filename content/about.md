@@ -1,15 +1,15 @@
 ---
 title: "About Us"
-description: "Learn about Premier Property Management's mission, values, and commitment to excellence"
+description: "Learn about HTX Property Management's mission, values, and commitment to excellence"
 date: 2024-01-01
 draft: false
 ---
 
-# About Premier Property Management
+# About HTX Property Management
 
 ## Our Story
 
-Founded in 2009, Premier Property Management has been serving property owners in the local community for over 15 years. What started as a small family business has grown into one of the region's most trusted property management companies, managing over 500 properties and serving more than 1,000 satisfied clients.
+Founded in 2009, HTX Property Management has been serving property owners in the local community for over 15 years. What started as a small family business has grown into one of the region's most trusted property management companies, managing over 500 properties and serving more than 1,000 satisfied clients.
 
 Our journey began with a simple mission: to provide property owners with professional, reliable management services that maximize their investment returns while minimizing their stress. Today, we continue to uphold that mission while leveraging modern technology and industry best practices.
 
@@ -34,7 +34,7 @@ We're proud to be part of the local community and actively support local busines
 ## Our Team
 
 ### **Sarah Johnson - Founder & CEO**
-With over 20 years of real estate experience, Sarah founded Premier Property Management with a vision of providing personalized, professional property management services. Her expertise in real estate law, market analysis, and property management has been instrumental in our company's success.
+With over 20 years of real estate experience, Sarah founded HTX Property Management with a vision of providing personalized, professional property management services. Her expertise in real estate law, market analysis, and property management has been instrumental in our company's success.
 
 ### **Michael Chen - Operations Manager**
 Michael oversees all day-to-day operations, ensuring that every property receives the attention it deserves. His background in construction and maintenance management helps us provide superior property care.
@@ -89,6 +89,6 @@ We believe in giving back to the community that has supported us. We actively pa
 
 ## Ready to Work With Us?
 
-We invite you to learn more about how Premier Property Management can help you maximize your property investment returns. Contact us today for a free consultation and discover why hundreds of property owners trust us with their investments.
+We invite you to learn more about how HTX Property Management can help you maximize your property investment returns. Contact us today for a free consultation and discover why hundreds of property owners trust us with their investments.
 
 [Schedule Your Free Consultation](/contact/)

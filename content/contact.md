@@ -1,11 +1,11 @@
 ---
 title: "Contact Us"
-description: "Get in touch with Premier Property Management for a free consultation"
+description: "Get in touch with HTX Property Management for a free consultation"
 date: 2024-01-01
 draft: false
 ---
 
-# Contact Premier Property Management
+# Contact HTX Property Management
 
 Ready to take the stress out of property ownership? We're here to help! Contact us today for a free consultation and discover how our professional property management services can maximize your investment returns.
 

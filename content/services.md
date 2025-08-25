@@ -7,7 +7,7 @@ draft: false
 
 # Our Comprehensive Property Management Services
 
-At Premier Property Management, we offer a full suite of property management services designed to maximize your investment returns while minimizing your stress. Our experienced team handles every aspect of property management, from tenant screening to maintenance coordination.
+At HTX Property Management, we offer a full suite of property management services designed to maximize your investment returns while minimizing your stress. Our experienced team handles every aspect of property management, from tenant screening to maintenance coordination.
 
 ## Tenant Screening & Placement
 

@@ -1,11 +1,11 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Premier Property Management'
+title = 'HTX Property Management'
 theme = 'property-management'
 
 [params]
   description = "Professional property management services for residential and commercial properties"
-  company_name = "Premier Property Management"
+  company_name = "HTX Property Management"
   phone = "(555) 123-4567"
   email = "info@premierpropertymgmt.com"
   address = "123 Business Ave, City, State 12345"
