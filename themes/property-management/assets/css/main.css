@@ -166,6 +166,15 @@ footer {
     background: linear-gradient(135deg, #1f2937, #111827);
 }
 
+footer p {
+    color: #e2e8f0 !important; /* Light gray for better readability */
+}
+
+/* Override Bootstrap text-muted class in footer */
+footer .text-muted {
+    color: #e2e8f0 !important;
+}
+
 footer a:hover {
     color: white !important;
 }
