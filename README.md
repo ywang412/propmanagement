@@ -1,45 +1,58 @@
 # Premier Property Management - Hugo Site
 
-A modern, responsive landing page for a property management company built with Hugo static site generator.
+A modern, responsive website for a property management company built with Hugo static site generator.
 
-## Features
+## 🏠 About This Site
 
-- **Modern Design**: Clean, professional design with Bootstrap 5
-- **Responsive Layout**: Mobile-friendly design that works on all devices
-- **Hero Section**: Eye-catching banner with property imagery
-- **Services Showcase**: Highlighting residential, commercial, and consulting services
-- **About Section**: Company information and key benefits
-- **Contact Section**: Easy ways to get in touch
-- **Fast Performance**: Static site generation for optimal speed
+This is a professional landing page for "Premier Property Management," a fictional property management company. The site showcases the company's services, team, and provides contact information for potential clients.
 
-## Technology Stack
+## ✨ Features
 
-- **Hugo**: Static site generator
-- **Bootstrap 5**: CSS framework for responsive design
-- **Font Awesome**: Icons
-- **Google Fonts**: Typography (Inter font family)
+### Design & User Experience
+- **Modern, Professional Design**: Clean, modern interface with a professional color scheme
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Fast Loading**: Static site generation ensures fast page loads
+- **SEO Optimized**: Proper meta tags, structured content, and semantic HTML
 
-## Getting Started
+### Content Sections
+- **Hero Banner**: Eye-catching hero section with property images and call-to-action
+- **Services Overview**: Comprehensive list of property management services
+- **Company Statistics**: Trust indicators with key metrics
+- **About Section**: Company story, mission, and team information
+- **Contact Form**: Lead generation form with property-specific fields
+
+### Technical Features
+- **Bootstrap 5**: Modern CSS framework for responsive design
+- **Font Awesome Icons**: Professional iconography throughout the site
+- **Google Fonts**: Inter font family for modern typography
+- **Custom CSS**: Tailored styling for property management industry
+- **Hugo Templates**: Modular template system for easy maintenance
+
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Hugo installed on your system
+- Hugo installed on your system (version 0.80.0 or higher)
 - Git for version control
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd rentalmanagement
-```
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd rentalmanagement
+   ```
 
-2. Start the Hugo development server:
-```bash
-hugo server --buildDrafts
-```
+2. **Install Hugo** (if not already installed):
+   - **Windows**: Download from [Hugo Releases](https://github.com/gohugoio/hugo/releases)
+   - **macOS**: `brew install hugo`
+   - **Linux**: `sudo apt-get install hugo`
 
-3. Open your browser and navigate to `http://localhost:1313`
+3. **Run the development server**:
+   ```bash
+   hugo server --buildDrafts
+   ```
+
+4. **View the site**: Open your browser and navigate to `http://localhost:1313`
 
 ### Building for Production
 
@@ -51,48 +64,123 @@ hugo --minify
 
 The built site will be in the `public/` directory.
 
-## Customization
-
-### Site Configuration
-
-Edit `hugo.toml` to customize:
-- Company name and contact information
-- Site title and description
-- Navigation menu items
-
-### Content
-
-- Main content is in `content/_index.md`
-- Theme templates are in `themes/property-management/layouts/`
-- Styling is in the base template
-
-### Images
-
-The site uses Unsplash images for the hero section and about section. You can replace these with your own images by:
-1. Adding images to `static/images/`
-2. Updating the image URLs in the templates
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 rentalmanagement/
-├── content/
-│   └── _index.md          # Main landing page content
+├── content/                 # Site content (Markdown files)
+│   ├── about.md            # About page
+│   ├── contact.md          # Contact page
+│   └── services.md         # Services page
 ├── themes/
-│   └── property-management/
-│       └── layouts/
-│           ├── _default/
-│           │   └── baseof.html    # Base template
-│           └── index.html         # Landing page template
-├── hugo.toml              # Site configuration
+│   └── property-management/ # Custom theme
+│       ├── assets/
+│       │   └── css/
+│       │       └── main.css # Custom styles
+│       ├── layouts/
+│       │   ├── _default/
+│       │   │   ├── baseof.html    # Base template
+│       │   │   └── single.html    # Single page template
+│       │   └── index.html         # Home page template
+│       └── hugo.toml              # Theme configuration
+├── hugo.toml               # Site configuration
 └── README.md              # This file
 ```
 
-## License
+## 🎨 Customization
+
+### Colors
+The site uses CSS custom properties for easy color customization. Edit the variables in `themes/property-management/assets/css/main.css`:
+
+```css
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --accent-color: #f59e0b;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --bg-light: #f8fafc;
+}
+```
+
+### Company Information
+Update company details in `hugo.toml`:
+
+```toml
+[params]
+  company_name = "Your Company Name"
+  phone = "(555) 123-4567"
+  email = "info@yourcompany.com"
+  address = "123 Business Ave, City, State 12345"
+```
+
+### Images
+Replace the placeholder images with your own:
+- Hero banner image: Update the URL in `themes/property-management/layouts/index.html`
+- About section image: Update the URL in the same file
+- All images are currently using Unsplash placeholder URLs
+
+### Content
+Edit the content files in the `content/` directory:
+- `content/about.md` - Company information
+- `content/services.md` - Service descriptions
+- `content/contact.md` - Contact information and form
+
+## 📱 Responsive Design
+
+The site is fully responsive and optimized for:
+- **Desktop**: 1200px and above
+- **Tablet**: 768px - 1199px
+- **Mobile**: Below 768px
+
+## 🔧 Development
+
+### Adding New Pages
+1. Create a new Markdown file in the `content/` directory
+2. Add front matter with title, description, and date
+3. The page will automatically use the single page template
+
+### Modifying Styles
+Edit `themes/property-management/assets/css/main.css` for custom styling.
+
+### Adding New Sections
+Modify the appropriate template files in `themes/property-management/layouts/`.
+
+## 📊 Performance
+
+The site is optimized for performance:
+- Static site generation for fast loading
+- Optimized images and CSS
+- Minimal JavaScript dependencies
+- CDN-hosted external resources
+
+## 🌐 Deployment
+
+The site can be deployed to any static hosting service:
+
+- **Netlify**: Drag and drop the `public/` folder
+- **Vercel**: Connect your Git repository
+- **GitHub Pages**: Push to a GitHub repository
+- **AWS S3**: Upload the `public/` folder contents
+
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Support
+## 🤝 Contributing
 
-For questions or support, please contact the development team.
-# propmanagement
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test locally with `hugo server`
+5. Submit a pull request
+
+## 📞 Support
+
+For questions or support:
+- Create an issue in the repository
+- Contact the development team
+
+---
+
+**Built with ❤️ using Hugo**

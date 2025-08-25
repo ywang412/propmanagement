@@ -7,8 +7,13 @@ theme = 'property-management'
   description = "Professional property management services for residential and commercial properties"
   company_name = "Premier Property Management"
   phone = "(555) 123-4567"
-  email = "info@premierproperty.com"
+  email = "info@premierpropertymgmt.com"
   address = "123 Business Ave, City, State 12345"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
   [[menu.main]]
@@ -19,15 +24,15 @@ theme = 'property-management'
   [[menu.main]]
     identifier = "services"
     name = "Services"
-    url = "/#services"
+    url = "/services/"
     weight = 2
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/#about"
+    url = "/about/"
     weight = 3
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
-    url = "/#contact"
+    url = "/contact/"
     weight = 4
