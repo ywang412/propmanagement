@@ -26,14 +26,21 @@ main {
 .hero-section {
     position: relative;
     overflow: hidden;
-    margin-top: 76px; /* Account for fixed navbar height */
+    margin-top: 76px !important; /* Account for fixed navbar height */
     min-height: 100vh;
     display: flex;
     align-items: center;
+    padding-top: 0 !important;
 }
 
 /* Ensure hero section is not affected by general page rules */
 .hero-section:first-child {
+    margin-top: 76px !important;
+    padding-top: 0 !important;
+}
+
+/* Force hero section positioning */
+section.hero-section {
     margin-top: 76px !important;
     padding-top: 0 !important;
 }
@@ -73,6 +80,11 @@ main {
 .hero-content h1 {
     font-weight: 700;
     line-height: 1.2;
+    color: var(--accent-color) !important;
+}
+
+.hero-content p {
+    color: #e2e8f0 !important; /* Light gray for better readability */
 }
 
 /* Navigation */
