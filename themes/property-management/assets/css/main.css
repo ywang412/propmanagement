@@ -13,12 +13,23 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
+    padding-top: 0; /* Remove any default body padding */
+}
+
+/* Ensure main content doesn't overlap with fixed navbar */
+main {
+    position: relative;
+    z-index: 1;
 }
 
 /* Hero Section */
 .hero-section {
     position: relative;
     overflow: hidden;
+    margin-top: 76px; /* Account for fixed navbar height */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .hero-background {
@@ -48,6 +59,9 @@ body {
 
 .hero-content {
     padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-content h1 {
@@ -58,6 +72,9 @@ body {
 /* Navigation */
 .navbar {
     transition: all 0.3s ease;
+    z-index: 1030; /* Ensure navbar is above other content */
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
 }
 
 .navbar-brand {
@@ -145,12 +162,19 @@ footer a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2.5rem;
+    .hero-section {
+        margin-top: 76px;
+        min-height: 80vh;
     }
     
     .hero-content {
         text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
     }
     
     .display-5 {
@@ -233,7 +257,9 @@ footer a:hover {
 /* Content Page Styling */
 .page-header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
-    margin-top: 76px;
+    margin-top: 76px; /* Account for fixed navbar */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .content-wrapper {
