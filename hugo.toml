@@ -1,4 +1,33 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'Premier Property Management'
+theme = 'property-management'
+
+[params]
+  description = "Professional property management services for residential and commercial properties"
+  company_name = "Premier Property Management"
+  phone = "(555) 123-4567"
+  email = "info@premierproperty.com"
+  address = "123 Business Ave, City, State 12345"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/#services"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/#about"
+    weight = 3
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/#contact"
+    weight = 4
