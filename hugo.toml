@@ -6,9 +6,9 @@ theme = 'property-management'
 [params]
   description = "Professional property management services for residential and commercial properties"
   company_name = "HTX Property Management"
-  phone = "(555) 123-4567"
-  email = "info@premierpropertymgmt.com"
-  address = "123 Business Ave, City, State 12345"
+  email = "htxpropmanage@gmail.com"
+  phone = "xiaohongshu Id: 94303120618"
+  address = "Wechat Id: htxpropmanage"
 
 [markup]
   [markup.goldmark]
