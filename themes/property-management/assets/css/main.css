@@ -277,8 +277,8 @@ footer a:hover {
 .page-header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
     margin-top: 76px !important; /* Account for fixed navbar */
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
     position: relative !important;
     z-index: 1 !important;
 }
@@ -286,32 +286,32 @@ footer a:hover {
 /* Force page header positioning for all content pages */
 section.page-header {
     margin-top: 76px !important;
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
 }
 
 /* Ensure all page content starts below navbar */
 main > section:first-child {
     margin-top: 76px !important;
-    padding-top: 2rem !important;
+    padding-top: 1rem !important;
 }
 
 /* Specific override for page headers */
 .page-header.bg-primary {
     margin-top: 76px !important;
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
 }
 
 /* Fix for content pages without page headers - ensure content doesn't overlap with navbar */
 main {
-    padding-top: 76px !important; /* Add padding to main content to prevent navbar overlap */
+    padding-top: 0 !important; /* Remove padding since page header handles spacing */
 }
 
 /* Ensure content wrapper has proper spacing */
 .content-wrapper {
     line-height: 1.8;
-    padding-top: 2rem; /* Add extra padding for content */
+    padding-top: 0; /* Remove extra padding since page header provides spacing */
 }
 
 /* Fix for pages that don't use the page-header structure */
