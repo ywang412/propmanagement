@@ -62,6 +62,12 @@ To build the site for production:
 hugo --minify
 ```
 
+```bash
+npm install http-server -g
+cd public
+http-server
+``` 
+
 The built site will be in the `public/` directory.
 
 ## 📁 Project Structure
